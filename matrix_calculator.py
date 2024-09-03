@@ -36,7 +36,7 @@ with col2:
     st.subheader('Segunda Grilla')
     rows2 = st.number_input('Filas', min_value=1, max_value=3, value=3, key='rows2')
     cols2 = st.number_input('Columnas', min_value=1, max_value=3, value=3, key='cols2')
-    create_grid(rows2, cols2, ' ')
+    create_grid(rows2, cols2, '')
 
 # Botones de operaciones
 st.subheader('Operaciones')
