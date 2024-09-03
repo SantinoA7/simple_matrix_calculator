@@ -19,7 +19,7 @@ def create_grid(rows, cols, key_prefix):
     return grid
 
 # Título de la página
-st.title('Página de Operaciones Matemáticas')
+st.title('Página de Operaciones Matriciales')
 
 # Crear dos columnas para las grillas
 col1, col2 = st.columns(2)
