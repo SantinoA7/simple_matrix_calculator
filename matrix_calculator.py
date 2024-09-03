@@ -29,14 +29,14 @@ with col1:
     st.subheader('Primera Grilla')
     rows1 = st.number_input('Filas', min_value=1, max_value=3, value=3, key='rows1')
     cols1 = st.number_input('Columnas', min_value=1, max_value=3, value=3, key='cols1')
-    create_grid(rows1, cols1, 'matrix 1\n')
+    create_grid(rows1, cols1, '')
 
 # Segunda grilla
 with col2:
     st.subheader('Segunda Grilla')
     rows2 = st.number_input('Filas', min_value=1, max_value=3, value=3, key='rows2')
     cols2 = st.number_input('Columnas', min_value=1, max_value=3, value=3, key='cols2')
-    create_grid(rows2, cols2, 'matrix 2\n')
+    create_grid(rows2, cols2, '')
 
 # Botones de operaciones
 st.subheader('Operaciones')
